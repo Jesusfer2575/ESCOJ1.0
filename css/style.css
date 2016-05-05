@@ -1,0 +1,89 @@
+.main{
+	height: 420px;
+	overflow-x: auto; 
+}
+
+.title{
+	height: 25px;
+	margin-bottom: 10px;
+	font-weight: bold;
+	text-align: center;
+	font-size: 14px;
+}
+
+.headers{
+	text-align: center;
+	font-weight: bold;
+	font-size: 13px;
+	color: white;
+	background-color: rgba(62, 179, 48, 0.9);
+}
+
+.font-main{
+	font-size: 12px;
+}
+
+.h-act{
+	width: 450px;
+}
+
+.h-icons{
+	width: 100px;
+}
+
+.pointer{
+	cursor: pointer;
+	color: rgba(255, 0, 0, 0.9);
+}
+
+.red{
+	background-color: rgba(255, 0, 0, 0.9);
+	color: white;
+	font-weight: bold;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+}
+
+.green{
+	background-color: rgba(0, 211, 0, 0.9);
+	color: white;
+	font-weight: bold;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+}
+
+.yellow{
+	background-color: rgba(207, 255, 0, 0.9);
+	color: black;
+	font-weight: bold;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+}
+
+.gray{
+	background-color: rgba(137, 136, 128, 0.9);
+	color: black;
+	font-weight: bold;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+}
+
+.porcentaje{
+	height: 20px;
+	text-align: center;
+}
+
+.no-info{
+	font-weight: bold;
+	font-size: 28px;
+	margin-top: 130px;
+}
+
+.marg-form{
+	margin-top: 5px;
+	margin-bottom: 8px;
+}
+
+.marg-tag-form{
+	padding-top: 6px;
+}

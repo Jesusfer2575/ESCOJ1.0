@@ -1,0 +1,50 @@
+.menu-main{
+	background-color: rgba(124, 123, 119, 0.9);
+	height: 50px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+}
+
+.option{
+	height: 50px;
+}
+
+.padd-titles-menu{
+	padding-top: 13px;
+}
+
+.padd-title{
+	padding-top: 20px;
+}
+
+.marg-imgs{
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.marg-menu{
+	margin-bottom: 20px;
+}
+
+.title-menu, .title-menu:hover{
+	color: white;
+	font-weight: bold;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.img-header{
+	width: 220px;
+	height: 70px;
+}
+
+.title-main{
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.pressed{
+	background-color: rgba(1, 160, 0, 0.9);
+}

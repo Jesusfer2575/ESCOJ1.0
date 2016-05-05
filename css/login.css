@@ -1,0 +1,35 @@
+.img-login{
+	height: 100px;
+	width: 260px;
+}
+
+.title-login{
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.text-login{
+	font-size: 15px;
+	text-align: right;
+}
+
+.marg-inputs{
+	margin-top: 15px;
+}
+
+.marg-box{
+	margin-top: 10px;
+}
+
+.marg-main{
+	margin-top: 170px;
+}
+
+.box{
+	border:double 5px #00D300;
+	border-top-left-radius:12px;
+	border-top-right-radius:12px;
+	border-bottom-left-radius:12px;
+	border-bottom-right-radius:12px;
+}
