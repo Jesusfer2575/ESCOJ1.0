@@ -17,7 +17,7 @@ if(!$_POST){
 				<div class="col-lg-12" id="main-banner" >
 					<div>
 						<br>
-						<h1 class="text-center" style="margin-top: 0px;"><strong>Conviertete en un verdadero maestro de la programación</strong></h1>
+						<h1 class="text-center" style="margin-top: 0px;"><strong>Conviértete en un verdadero maestro de la programación</strong></h1>
 						<h2 class="text-center" style="margin-top: 10px; font-size: 24px;">Aprende cómo hacer algoritmos eficientes</h2>
 						<div class="text-center"><br>
 							<strong id="total-submissions">16873478</strong> submissions, <strong>419448</strong> usuarios registrados, <strong>5955</strong> problemas públicos
