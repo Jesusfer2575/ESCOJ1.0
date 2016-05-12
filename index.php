@@ -6,12 +6,8 @@ if(!$_POST){
 ?>
 <body style="color:#424242;">
 	<div class="container-fluid">
-		<!--<div class="row marg-main">
-			<div class="col-md-6 col-md-offset-3 title-login">
-				Acceso a ESCOJ
-			</div>
-		</div>-->
-		<div id="divEspacio" class="rox marg-main"></div>
+		
+		<div id="divEspacio" class="rox marg-main" style="margin-top:150px;"></div>
 		<form action="./index.php" method="POST">
 			<div style="color:#337ab7;">
 				<div class="col-lg-12" id="main-banner" >
@@ -30,7 +26,10 @@ if(!$_POST){
 				</div>
 			</div>
 			<div class="col-md-12 text-center"> 
-				<button type="submit" class="btn btn-success" style="margin:0;"><h5>Ir a Problemas   <span class="glyphicon glyphicon-education" aria-hidden="true"></span></h5></button>
+				<a href="./resources/problems.php"><input type="submit" class="btn btn-success" style="margin:0;" >
+					<h5>Ir a Problemas   <span class="glyphicon glyphicon-education" aria-hidden="true"></span></h5>
+				</input>
+				</a>
 			</div>
 			<br>
 			
