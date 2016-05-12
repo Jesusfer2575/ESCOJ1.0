@@ -1,6 +1,5 @@
 <?php 
 include("./resources/header.php");
-session_start();
 if(!$_POST){
 	if(!(isset($_SESSION["isStarted"])) || $_SESSION["isStarted"] == FALSE){
 ?>
