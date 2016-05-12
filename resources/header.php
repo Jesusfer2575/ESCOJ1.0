@@ -26,7 +26,7 @@
 <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
   <div class="container">
     <ul class="nav navbar-nav" >
-        <li><img src="../media/escoj7.png" style=" width:175px; height:45px; position: relative; top:4px; left: 0px;"></li>
+        <li><a href="./index.php"><img src="./media/escoj7.png" style=" width:175px; height:45px; position: relative; top:4px; left: 0px;"></a></li>
         <li style="margin:6px;"></li>
         <li class="active"><a href="#">Problemas <span class="sr-only">(current)</span></a></li>
         <li><a href="#">Estatus</a></li>

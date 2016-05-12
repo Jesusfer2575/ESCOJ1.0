@@ -26,10 +26,16 @@ if(!$_POST){
 				</div>
 			</div>
 			<div class="col-md-12 text-center"> 
-				<a href="./resources/problems.php"><input type="submit" class="btn btn-success" style="margin:0;" >
-					<h5>Ir a Problemas   <span class="glyphicon glyphicon-education" aria-hidden="true"></span></h5>
-				</input>
-				</a>
+				<h5>
+					<button type="submit" class="btn btn-success" style="margin:0;" ><a style="text-decoration:none;color:white;" href="./problems.php">
+
+						Ir a Problemas 
+						<span class="glyphicon glyphicon-education" aria-hidden="true">
+							
+						</span>
+														</a>
+					</button>
+				</h5>
 			</div>
 			<br>
 			
