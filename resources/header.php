@@ -20,21 +20,21 @@ require_once("server.php");
 	<link rel="stylesheet" href="./css/login.css">
 	<link rel="stylesheet" href="./css/style.css">
 	<meta charset="utf-8">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 	
 </head>
 
 <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
-  <div class="container">
-    <ul class="nav navbar-nav" >
+  <div class="container-fluid">
+    <ul class="nav navbar-nav">
         <li><img src="./media/escoj7.png" style=" width:175px; height:45px; position: relative; top:4px; left: 0px;"></li>
         <li style="margin:6px;"></li>
-        <li class="active"><a href="#">Problemas <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Estatus</a></li>
+        <li class="active"><a href="#">Problems <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Status</a></li>
         <li><a href="#">Ranks</a></li>
-        <li><a href="#">Concursos</a></li>
+        <li><a href="./concursos.php">Contests</a></li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Mi Cuenta <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">My Account <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="#">Action</a></li>
             <li><a href="#">Another action</a></li>
@@ -46,8 +46,8 @@ require_once("server.php");
           </ul>
         </li>
         <!--_________________________________Aqui_______________________________________-->
-        <li><p class="navbar-text">Already have an account?</p></li>
-        <li class="dropdown">
+        <li><p class="navbar-text" style="margin-left:18em;">Already have an account?</p></li>
+        <li class="dropdown" style="margin-left:.5em;">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Login</b> <span class="caret"></span></a>
       <ul id="login-dp" class="dropdown-menu">
         <li>
