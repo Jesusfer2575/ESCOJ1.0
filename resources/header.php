@@ -30,7 +30,7 @@ require_once("server.php");
         <li><img src="./media/escoj7.png" style=" width:210px; height:50px; position: relative; top:0px; left: -15px;"></li>
         <!--<li style="margin:6px;"></li>-->
         <li><a href="./problems.php">Problems <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Status</a></li>
+        <li><a href="./sentencias.php">Verdicts</a></li>
         <li><a href="#">Ranks</a></li>
         <li><a href="./concursos.php">Contests</a></li>
         <li class="dropdown">
