@@ -27,8 +27,8 @@ require_once("server.php");
 <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
   <div class="container-fluid">
     <ul class="nav navbar-nav">
-        <li><img src="./media/escoj7.png" style=" width:175px; height:45px; position: relative; top:4px; left: 0px;"></li>
-        <li style="margin:6px;"></li>
+        <li><img src="./media/escoj7.png" style=" width:210px; height:50px; position: relative; top:0px; left: -15px;"></li>
+        <!--<li style="margin:6px;"></li>-->
         <li class="active"><a href="#">Problems <span class="sr-only">(current)</span></a></li>
         <li><a href="#">Status</a></li>
         <li><a href="#">Ranks</a></li>
@@ -36,7 +36,7 @@ require_once("server.php");
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">My Account <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
+            <li><a href="#">Your profile</a></li>
             <li><a href="#">Another action</a></li>
             <li><a href="#">Something else here</a></li>
             <li role="separator" class="divider"></li>
