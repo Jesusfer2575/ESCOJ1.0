@@ -24,7 +24,7 @@ require_once("server.php");
 	
 </head>
 
-<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse" style="background-color:blue;">
   <div class="container-fluid">
     <ul class="nav navbar-nav">
         <li><img src="./media/escoj7.png" style=" width:210px; height:50px; position: relative; top:0px; left: -15px;"></li>

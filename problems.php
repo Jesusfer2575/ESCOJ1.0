@@ -22,8 +22,8 @@ if(!$_POST){
 		</div>
 	</div>-->
 	<div id="divEspacio" class="rox marg-main" style="margin-top:70px; margin-left:160px;">
-		<div>
-			<table style="border-spacing:5px;border-collapse: separate;">
+		<div style="width:930px;">
+			<table style="border-spacing:5px;border-collapse: separate;margin:0 auto;">
 				<tr style="display:inline; border-spacing:5px;">
 					<td><input class="form-control tt-input" id="nomProblema" placeholder="Nombre Problema" type="text"></td>
 					<td>
@@ -54,7 +54,11 @@ if(!$_POST){
 							<option value="5">5</option>
 						</select>
 					</td>
+					<td>
+						<button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">Create Problem</button>
+					</td>
 				</tr>
+
 			</table>
 		</div>
 	</div>
@@ -130,6 +134,26 @@ if(!$_POST){
 			  </tr>
 
 		  </table>
+		</div>
+
+		<!-- Modal -->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="myModalLabel">Details</h4>
+		      </div>
+		      <div class="modal-body">
+		      	<p>Name:</p>
+		        <input type="text" id="name-problem" class="form-control" size="10">
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		        <button type="button" class="btn btn-primary">Save changes</button>
+		      </div>
+		    </div>
+		  </div>
 		</div>
 </body>
 </html>
