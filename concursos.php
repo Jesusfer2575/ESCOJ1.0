@@ -138,13 +138,34 @@ $("#fecha").datepicker({
 	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 		<script>
 			$(function(){
-					$(".fecha").datepicker({
-					    dateFormat: 'dd-mm-yy',
-					     minDate: '+5d',
-					     changeMonth: true,
-					     changeYear: true,
-					     altField: "#idTourDateDetailsHidden",
-					     altFormat: "yy-mm-dd"
+					$("#fechaIni").datepicker({
+					    dateFormat: 'yy-dd-mm',
+					    onSelect: function(datetext){
+					        var d = new Date(); // for now
+					        datetext=datetext+" "+d.getHours()+": "+d.getMinutes()+": "+d.getSeconds();
+					        $('.fechaIni').val(datetext);
+					    },
+					    minDate: '+5d',
+					    changeMonth: true,
+					    changeYear: true,
+					    altField: "#idTourDateDetailsHidden",
+					    altFormat: "yy-mm-dd"
+					});
+				}
+			);
+			$(function(){
+					$("#fechaFin").datepicker({
+					    dateFormat: 'yy-dd-mm',
+					    onSelect: function(datetext){
+					        var d = new Date(); // for now
+					        datetext=datetext+" "+d.getHours()+": "+d.getMinutes()+": "+d.getSeconds();
+					        $('.fechaFin').val(datetext);
+					    },
+					    minDate: '+5d',
+					    changeMonth: true,
+					    changeYear: true,
+					    altField: "#idTourDateDetailsHidden",
+					    altFormat: "yy-mm-dd"
 					});
 				}
 			);
@@ -160,10 +181,10 @@ $("#fecha").datepicker({
 	      	<p>Name:</p>
 	        <input type="text" id="name-problem" class="form-control" >
 	        <p>Fecha de Inicio:</p>
-	        <input id="fecha" type="text" readonly="readonly" class="form-control text-center fecha"/>
+	        <input id="fechaIni" type="text" readonly="readonly" class="form-control text-center"/>
 	        
 	        <p>Fecha de Termino:</p>
-	        <input id="fechaIin" type="text" readonly="readonly" class="form-control text-center fecha"/>
+	        <input id="fechaFin" type="text" readonly="readonly" class="form-control text-center"/>
 	      </div>
 	      <div class="modal-footer">
 	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

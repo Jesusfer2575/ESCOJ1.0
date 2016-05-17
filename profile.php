@@ -4,6 +4,9 @@ include("./resources/header.php");
 
 <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
 <div id="divEspacio" class="rox marg-main" style="margin-top:60px;"></div>
+<div style="color:#337ab7;">
+            <h1 class="text-center" style="margin-top: 0px;"><strong>My Profile</strong></h1>
+        </div>
 <div class="container">
 	<div class="row">
 		<div class="col-md-offset-2 col-md-8 col-lg-offset-3 col-lg-6">

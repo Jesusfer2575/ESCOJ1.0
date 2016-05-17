@@ -21,7 +21,12 @@ if(!$_POST){
 		  </div>
 		</div>
 	</div>-->
-	<div id="divEspacio" class="rox marg-main" style="margin-top:70px; margin-left:160px;">
+
+	<div id="divEspacio" class="rox marg-main" style="margin-top:70px; margin-left:160px;"></div>
+	<div>
+		<div style="color:#337ab7;">
+			<h1 class="text-center" style="margin-top: 0px;"><strong>Problems</strong></h1>
+		</div>
 		<div style="width:930px;">
 			<table style="border-spacing:5px;border-collapse: separate;margin:0 auto;">
 				<tr style="display:inline; border-spacing:5px;">
@@ -77,7 +82,7 @@ if(!$_POST){
 			    <td><b>Mi puntaje</b></td>
 			  </tr>
 			  <tr>
-			    <td><a style="cursor:pointer;" href="#">Problema 1</a></td>
+			    <td><a style="cursor:pointer;" href="./problemo.php">Problema 1</a></td>
 			    <td>120</td> 
 			    <td>94</td>
 			    <td>23%</td>

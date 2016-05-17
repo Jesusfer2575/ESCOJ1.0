@@ -89,7 +89,27 @@ include("./resources/header.php");
 	        <td>2016-05-28 10:00:00</td>
 	        <td><a href="#">JesusFer2575</a></td>
 	        <td><a href="#">1997</a></td>
+	        <td style="color:#00BA0E;;"><h4>Accepted</h4></td>
+	        <td>665</td>
+	        <td>11 MB</td>
+	        <td>C++</td>
+	      </tr>
+	      <tr>
+	        <td>7</td>
+	        <td>2016-05-28 10:00:00</td>
+	        <td><a href="#">JesusFer2575</a></td>
+	        <td><a href="#">1997</a></td>
 	        <td style="color:#FF1111;;"><h4>Time Limit Exceeded</h4></td>
+	        <td>665</td>
+	        <td>11 MB</td>
+	        <td>C++</td>
+	      </tr>
+	      <tr>
+	        <td>7</td>
+	        <td>2016-05-28 10:00:00</td>
+	        <td><a href="#">JesusFer2575</a></td>
+	        <td><a href="#">1997</a></td>
+	        <td style="color:#00BA0E;;"><h4>Accepted</h4></td>
 	        <td>665</td>
 	        <td>11 MB</td>
 	        <td>C++</td>
@@ -119,7 +139,17 @@ include("./resources/header.php");
 	        <td>2016-05-28 10:00:00</td>
 	        <td><a href="#">JesusFer2575</a></td>
 	        <td><a href="#">1997</a></td>
-	        <td style="color:#FF1111;;"><h4>Time Limit Exceeded</h4></td>
+	        <td style="color:#00BA0E;;"><h4>Accepted</h4></td>
+	        <td>665</td>
+	        <td>11 MB</td>
+	        <td>C++</td>
+	      </tr>
+	      <tr>
+	        <td>7</td>
+	        <td>2016-05-28 10:00:00</td>
+	        <td><a href="#">JesusFer2575</a></td>
+	        <td><a href="#">1997</a></td>
+	        <td style="color:#FF1111;;"><h4>Wrong Answer</h4></td>
 	        <td>665</td>
 	        <td>11 MB</td>
 	        <td>C++</td>
@@ -149,7 +179,7 @@ include("./resources/header.php");
 	        <td>2016-05-28 10:00:00</td>
 	        <td><a href="#">JesusFer2575</a></td>
 	        <td><a href="#">1997</a></td>
-	        <td style="color:#FF1111;;"><h4>Time Limit Exceeded</h4></td>
+	        <td style="color:#FF1111;;"><h4>Wrong Answer</h4></td>
 	        <td>665</td>
 	        <td>11 MB</td>
 	        <td>C++</td>
@@ -157,39 +187,9 @@ include("./resources/header.php");
 	      <tr>
 	        <td>7</td>
 	        <td>2016-05-28 10:00:00</td>
-	        <td><a href="#">JesusFer2575</a></td>
+	        <td><a href="#">ioexception</a></td>
 	        <td><a href="#">1997</a></td>
-	        <td style="color:#FF1111;;"><h4>Time Limit Exceeded</h4></td>
-	        <td>665</td>
-	        <td>11 MB</td>
-	        <td>C++</td>
-	      </tr>
-	      <tr>
-	        <td>7</td>
-	        <td>2016-05-28 10:00:00</td>
-	        <td><a href="#">JesusFer2575</a></td>
-	        <td><a href="#">1997</a></td>
-	        <td style="color:#FF1111;;"><h4>Time Limit Exceeded</h4></td>
-	        <td>665</td>
-	        <td>11 MB</td>
-	        <td>C++</td>
-	      </tr>
-	      <tr>
-	        <td>7</td>
-	        <td>2016-05-28 10:00:00</td>
-	        <td><a href="#">JesusFer2575</a></td>
-	        <td><a href="#">1997</a></td>
-	        <td style="color:#FF1111;;"><h4>Time Limit Exceeded</h4></td>
-	        <td>665</td>
-	        <td>11 MB</td>
-	        <td>C++</td>
-	      </tr>
-	      <tr>
-	        <td>7</td>
-	        <td>2016-05-28 10:00:00</td>
-	        <td><a href="#">JesusFer2575</a></td>
-	        <td><a href="#">1997</a></td>
-	        <td style="color:#FF1111;;"><h4>Time Limit Exceeded</h4></td>
+	        <td style="color:#FF1111;;"><h4>Wrong Answer</h4></td>
 	        <td>665</td>
 	        <td>11 MB</td>
 	        <td>C++</td>
