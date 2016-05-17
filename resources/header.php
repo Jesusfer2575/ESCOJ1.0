@@ -13,8 +13,14 @@ require_once("server.php");
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<script type="text/javascript" src="./js/jquery-2.2.0.min.js"></script>
 	<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+  
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
 	<link rel="stylesheet" href="./css/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./js/bootstrap-datepicker.js">
 	<link rel="stylesheet" href="./css/bootstrap-theme.min.css">
 	<link rel="stylesheet" href="./css/main-style.css">
 	<link rel="stylesheet" href="./css/login.css">
@@ -23,7 +29,13 @@ require_once("server.php");
   <meta name="viewport" content="width=device-width, initial-scale=1">
 	
 </head>
-
+<script>
+  $(function(){
+     $('.datepicker').datepicker({
+        format: 'mm-dd-yyyy'
+      });
+  });
+</script>
 <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" style="background-color:blue;">
   <div class="container-fluid">
     <ul class="nav navbar-nav">

@@ -1,7 +1,18 @@
 <?php 
 include("./resources/header.php");
 ?>
-
+<script>
+	$("#fechaIni").datepicker({
+	    format: "yyyy-mm-dd",
+	    autoclose: true,
+	    orientation: "auto"
+	});
+	$("#fechaFin").datepicker({
+	    format: "yyyy-mm-dd",
+	    autoclose: true,
+	    orientation: "auto"
+	});
+</script>
 <body style="color:#424242;">
 	<div id="divEspacio" class="rox marg-main" style="margin-top:60px;"></div>
 	<div style="color:#337ab7;">
@@ -76,8 +87,69 @@ include("./resources/header.php");
 	<div>
 		<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" style="margin-left:30em;">Create Contest</button>
 	</div>
+
+			<!--<script>
+			$(function(){
+
+$("#fecha").datepicker({
+			    dateFormat: 'dd-mm-yy',
+     minDate: '+5d',
+     changeMonth: true,
+     changeYear: true,
+     altField: "#idTourDateDetailsHidden",
+     altFormat: "yy-mm-dd"
+			});
+
+			});
+			
+			
+		</script>
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                 <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+
+            </div>
+            <div class="modal-body">
+                <div class="col-md-12">
+                    <div class="row">
+                        <label for="idTourDateDetails">Tour Start Date:</label>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <input type="text" name="idTourDateDetails" id="fecha" readonly="readonly" class="form-control"> <span class="input-group-addon"><i id="calIconTourDateDetails" class="glyphicon glyphicon-th"></i></span>
+
+                            </div>
+                        </div>Alt Field:
+                        <input type="text" name="idTourDateDetailsHidden" id="idTourDateDetailsHidden">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>-->
+    <!-- /.modal -->
 	<!-- Modal -->
 	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<script>
+			$(function(){
+					$(".fecha").datepicker({
+					    dateFormat: 'dd-mm-yy',
+					     minDate: '+5d',
+					     changeMonth: true,
+					     changeYear: true,
+					     altField: "#idTourDateDetailsHidden",
+					     altFormat: "yy-mm-dd"
+					});
+				}
+			);
+			
+		</script>
 	  <div class="modal-dialog" role="document">
 	    <div class="modal-content">
 	      <div class="modal-header">
@@ -86,7 +158,12 @@ include("./resources/header.php");
 	      </div>
 	      <div class="modal-body">
 	      	<p>Name:</p>
-	        <input type="text" id="name-problem" class="form-control" size="10">
+	        <input type="text" id="name-problem" class="form-control" >
+	        <p>Fecha de Inicio:</p>
+	        <input id="fecha" type="text" readonly="readonly" class="form-control text-center fecha"/>
+	        
+	        <p>Fecha de Termino:</p>
+	        <input id="fechaIin" type="text" readonly="readonly" class="form-control text-center fecha"/>
 	      </div>
 	      <div class="modal-footer">
 	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
